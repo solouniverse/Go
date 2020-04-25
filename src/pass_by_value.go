@@ -15,7 +15,7 @@ func main() {
 	fmt.Println("\nVersion is unchanged in calling function", version)
 }
 
-func changeVersion(version float64) float64 {
+func changeVersion(version float64) {
 	version = 1.6
 
 	fmt.Println("\nTrying to change the version in called function", version)
